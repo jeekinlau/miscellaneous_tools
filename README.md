@@ -11,11 +11,11 @@ Line 1: What we want to do is create a path to the folder where where all the fi
 Line 2: Set the path of the new folder as new.folder.       
 Line 3: Read in a csv file containing one column of the name of files you want to copy over into new folder.          
 Line 4: Run the last line of code to copy files.        
-'''
+```
 current.folder <- "path_to_folder_to_copy_from"
 new.folder <- "path_to_folder_to_copy_to"
 
 files<-as.vector(read.csv("file_with_one_column_of_names.csv",header=F)$V1)
 
 file.copy(paste0(current.folder,"/",files),new.folder)
-'''
+```
