@@ -4,7 +4,7 @@ Short snippets of R - code that users may find useful
 This will be a collection of small possibly useful code that you can feel free to copy and utilize.
 
 
-1. Select and copy wanted files.    
+## Select and copy wanted files.    
 Say for instance, you have a large collection of files in an unrecognizable format (plate and cell numbers). You may have a reference file that has the sample names next to the plate name and cell numbers. Wouldn't it be nice to be able to make a csv list of files you want to copy over and have R copy it over for you?     
 
 Line 1: What we want to do is create a path to the folder where where all the files are current.folder, then go create a folder to where you want to copy the files into (you can do this in file explorer).     
